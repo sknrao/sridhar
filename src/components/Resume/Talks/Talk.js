@@ -1,27 +1,28 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Course = ({ data, last }) => (
+const Talk = ({ data, last }) => (
   <li className="course-container">
     <a href={data.link}>
-      <h4 className="course-number">{data.number}:</h4>
-      <p className="course-name">{data.title}</p>
+      <h4 className="course-number">{data.title}:</h4>
+      <p className="course-name">{data.desc}</p>
     </a>
     {!last && <div className="course-dot"><p className="course-name"> &#8226;</p></div>}
   </li>
 );
 
-Course.propTypes = {
+Talk.propTypes = {
   data: PropTypes.shape({
     link: PropTypes.string.isRequired,
     number: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
+    desc: PropTypes.string.isRequired,
   }).isRequired,
   last: PropTypes.bool,
 };
 
-Course.defaultProps = {
+Talk.defaultProps = {
   last: false,
 };
 
-export default Course;
+export default Talk;

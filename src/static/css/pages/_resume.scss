@@ -25,6 +25,13 @@
 			margin-bottom: 2em;
 		}
 	}
+	.publication {
+
+		.title {
+			text-align: center;
+			margin-bottom: 2em;
+		}
+	}
 	.experience {
 		.title {
 			text-align: center;
@@ -60,6 +67,32 @@
 			}
 		}
 	}
+	.highlights {
+		padding-top: 1.6em;
+		.title {
+			text-align: center;
+		}
+		.course-list {
+			text-align: center;
+
+			h4 {
+				white-space: nowrap;
+			}
+		}
+	}
+	.talks {
+		padding-top: 1.6em;
+		.title {
+			text-align: center;
+		}
+		.course-list {
+			text-align: center;
+
+			h4 {
+				white-space: nowrap;
+			}
+		}
+	}
 
 	.skills {
 		margin-top: 2em;
@@ -78,6 +111,7 @@
 
 	.references {
 		margin: 2em 0;
+		text-overflow:ellipsis;
 		.title {
 			text-align: center;
 		}
@@ -86,6 +120,31 @@
 
 .daterange {
 	margin-bottom: .2em;
+}
+
+.pub-container {
+	h4 {
+		font-weight: normal;
+	}
+
+	.pub {
+		margin-bottom: .1em;
+		text-transform: none;
+		letter-spacing: 0.16em;
+		font-size: .8em;
+	}
+
+	.author {
+		text-transform: none;
+		padding-top: 0.3em;
+		margin-bottom: 1em;
+	}
+	
+	.pubtitle {
+		text-transform: none;
+		padding-top: 0.3em;
+		margin-bottom: 1em;
+	}
 }
 
 .degree-container {
