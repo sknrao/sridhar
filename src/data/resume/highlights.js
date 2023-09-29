@@ -54,6 +54,16 @@ const highlights = [
     value: '5',
     year: '2023',
   },
+  {
+    title: '.              ',
+    value: '5',
+    year: '2023',
+  },
+  {
+    title: '.              ',
+    value: '5',
+    year: '2023',
+  },
 ];
 
 export default highlights;
