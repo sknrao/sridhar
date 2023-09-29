@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksridhar=self.webpackChunksridhar||[]).push([[625],{9625:function(e,s,a){e.exports=a.p+"static/media/about.b3ff0ae319e9775ebf79.md"}}]);

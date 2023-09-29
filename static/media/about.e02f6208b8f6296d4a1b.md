@@ -27,7 +27,7 @@ The content in the sidebar summarizes everything about my work in Industry. Howe
 - Trekking
 
 # Countries I have visited
-![](my_countries_map.svg?raw=true)
+![](/public/images/my_countries_map.png)
 
 
 # Fun facts
